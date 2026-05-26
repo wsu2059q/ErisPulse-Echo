@@ -1,0 +1,13 @@
+[project]
+name = "ErisPulse-Echo"
+version = "1.0.0"
+description = "Echo - 回显消息内容，支持文本、图片等多种类型，支持引用回显"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "ErisPulse"}]
+dependencies = [
+]
+
+[project.entry-points."erispulse.module"]
+"Echo" = "Echo:Main"
